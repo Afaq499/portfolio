@@ -9,7 +9,7 @@ import './style.css'
 const AboutMe = () => {
   return (
     <div id="aboutme" className="aboutme">
-      <div style={{ padding: '5px 34px 10px 52px' }}>
+      <div style={{ padding: '22px 0px 8px 53px' }}>
         <h1 style={{ fontSize: '30px' }}>About Me</h1>
         <p style={{ paddingLeft: 'px', fontSize: '20px', opacity: '0.6' }}>
           Hello there! I'm thrilled to welcome you to my portfolio. I am a passionate and versatile<br />

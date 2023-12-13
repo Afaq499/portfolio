@@ -62,8 +62,10 @@ const Work = () => {
                   setIsModalOpen(true);
                 }}
               >
-                <img className="rec-img" height={100} width={250} src={src} alt="rectangle" />
-                <span className="project-info-basic">{type}</span><br />
+                <div>
+                  <img className="rec-img" height={100} width={250} src={src} alt="rectangle" />
+                  <span className="project-info-basic">{type}</span>
+                </div>
                 <span className="project-title"><b>{title}</b></span>
               </div>
             })

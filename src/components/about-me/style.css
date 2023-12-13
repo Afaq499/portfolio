@@ -17,6 +17,7 @@
   border: 0px solid;
   border-radius: 10px;
   margin-bottom: 21px;
+  padding-top: 10px;
 }
 
 .app-dev-text {
@@ -25,6 +26,7 @@
   margin-bottom: 21px;
   border: 0px solid;
   border-radius: 10px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 767px) {

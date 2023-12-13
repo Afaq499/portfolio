@@ -1,6 +1,8 @@
 import React from 'react';
 import { Modal } from 'antd';
 
+import './style.css';
+
 const CustomModal = ({
   isModalOpen,
   setIsModalOpen,
@@ -20,10 +22,9 @@ const CustomModal = ({
 
   return (
     <Modal title={title} open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-      <h3>Info</h3>
       <p>{description}</p>
-      <h3>My Role</h3>
-      <p>{role}</p>
+      <span className='role'>My Role</span>
+      <p className='role-dis'>{role}</p>
     </Modal>
   );
 };

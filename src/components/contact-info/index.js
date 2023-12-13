@@ -1,8 +1,7 @@
 import React from "react";
 
-import profile from '../../utils/images/profile.jpeg';
+import profile from '../../utils/images/portfolio.jpg';
 import facebook from '../../utils/images/Facebook.png';
-import details from '../../utils/images/career details.png';
 import LinkedIn from '../../utils/images//Linkedin.png';
 import twitter from '../../utils/images/Twitter.png';
 import github from '../../utils/images/Github.png';
@@ -35,8 +34,10 @@ const ContactInfo = () => {
     <div className="contact">
       <img width="150px" className="profileImage" height="150px" src={profile} alt="profile" />
       <div className="contectDetail">
-        <h4>Afaq Khan</h4>
-        <img width="80px" src={details} alt="career" />
+        <div className="info">
+          <h4 className="name">Afaq Khan</h4>
+          <span className="stack">FullStack Developer</span>
+        </div>
         <div className="icons">
           <img
             width="50px"
@@ -65,7 +66,7 @@ const ContactInfo = () => {
           />
         </div>
         <div className="personel">
-          <div style={{ display: 'flex' }}>
+          <div className="contactInfo">
             <img width=" 30px" src={phone} alt="profile" />
             <div>
               <span style={{ paddingTop: '7px', fontSize: '15px', color: 'silver' }}>Phone</span><br />
@@ -73,7 +74,7 @@ const ContactInfo = () => {
             </div>
           </div>
           <hr />
-          <div style={{ display: 'flex' }}>
+          <div className="contactInfo">
             <img width=" 30px" src={email} alt="email" />
             <div className="contact-email">
               <span style={{ paddingTop: '7px', fontSize: '15px', color: 'silver' }}>Email</span><br />
@@ -81,7 +82,7 @@ const ContactInfo = () => {
             </div>
           </div>
           <hr />
-          <div style={{ display: 'flex' }}>
+          <div className="contactInfo">
             <img width=" 30px" src={location} alt="location" />
             <div>
               <span style={{ paddingTop: '7px', fontSize: '15px', color: 'silver' }}>Location</span><br />

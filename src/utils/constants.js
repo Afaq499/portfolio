@@ -46,4 +46,12 @@ export const workHistory = [
     type: 'App Development',
     src: app
   },
+  {
+    title: 'Virtual Fitness Trainer',
+    description: `In this app, users can log in,
+    and during that process, they will enter their weight, height, and age. Our app will then calculate their
+    BMI and suggest daily diet and exercise plans through reminder notifications.`,
+    type: 'App Development',
+    src: app
+  },
 ]

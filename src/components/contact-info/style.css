@@ -6,5 +6,24 @@
 .downloadResume {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contactInfo {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stack {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.name {
+    margin-bottom: -2px;
+}
+
+.info {
+    margin-bottom: 10px;
 }
